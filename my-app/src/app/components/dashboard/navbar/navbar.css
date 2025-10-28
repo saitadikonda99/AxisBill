@@ -1,0 +1,40 @@
+
+
+.DashboardNavComponent {
+    width: 100%;
+}
+
+.DashboardNavComponent-in {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 1rem;
+}
+
+.dn-one {
+    width: 20%;
+}
+
+.dn-two {
+    width: 60%;
+    text-align: center;
+}
+
+.dn-two h1 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.dn-three {
+    width: 20%;
+    text-align: right;
+}
+
+.dn-three p {
+    font-size: 1rem;
+    color: black;
+    font-size: 1rem;
+}

@@ -1,0 +1,39 @@
+.SidebarComponent {
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+.SidebarComponent-in {
+    width: 100%;
+    height: 85vh;
+    border: 1px solid #e0e0e0;
+    border-radius: 1rem;
+}
+
+.sidebar-one {
+    width: 100%;
+    padding: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.sidebar-option {
+    width: 90%;
+    margin: auto;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.sidebar-option a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .5rem;
+}
+
+.sidebar-option:hover {
+    background-color: green;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
